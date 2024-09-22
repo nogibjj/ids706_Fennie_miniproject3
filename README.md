@@ -2,9 +2,9 @@
 
 
 
-# IDS706_Fennie_Report
-## Fennie's Pandas Descriptive Statistics Report
-### Python script reads a dataset, generates descriptive statistics, and a visualization using Pandas
+# IDS706_Fennie_Miniproject3
+## Fennie's Polars Descriptive Statistics Report
+### Python script reads a dataset, generates descriptive statistics, and a visualization using Polars
 
 
 

@@ -3,18 +3,13 @@ LIBRARY
 """
 
 # Required packages
-import pandas as pd
+import polars as pl
 import matplotlib.pyplot as plt
-
-
-def add(x, y):
-    """function adds two varibales serves"""
-    return x + y
 
 
 def data_read(input_csv):
     """function reads in a csv to return a df"""
-    output_df = pd.read_csv(input_csv)
+    output_df = pl.read_csv(input_csv)
     return output_df
 
 
@@ -52,7 +47,7 @@ def data_visualization(input_viz):
 
 
 def report_run(input_csv):
-    """Pandas Descriptive Report"""
+    """Polars Descriptive Report"""
     # read CSV
     report_data = data_read(input_csv)
     # Generate a preview
